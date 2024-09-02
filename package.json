@@ -1,0 +1,17 @@
+{
+  "name": "basic-express-server-with-routing",
+  "version": "1.0.0",
+  "description": "Created a server that handles multiple routes, serving different HTML pages, a JSON response, and handling 404 errors for unknown routes.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2"
+  }
+}
